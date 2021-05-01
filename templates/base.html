@@ -1,4 +1,6 @@
-<!doctype html>
+{% load static %}
+
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -6,8 +8,24 @@
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>CodeVirgin List</title>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     </head>
     <body>
-        <h3>Testing 123</h3>
+        <nav>
+            <div class="container nav-wrapper">
+
+                <a href="/" class="brand-logo">CodeVirgin List</a>
+
+                <ul id="nav-mobile" class="right">
+
+                    <li><a href="/">Home</a></li>
+
+                </ul>
+
+            </div>
+        </nav>
     </body>
 </html>
